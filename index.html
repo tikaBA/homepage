@@ -1,11 +1,272 @@
-HTML
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Résumé</title>
+    <title>Résumé — Tetiana Sotnykova</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    ― Hello World! &#x1F609; &#x1F433;	
+    <main>
+      <div class="resume">
+
+        <!-- ===== HEAD / CONTACT INFO ===== -->
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Tetiana Sotnykova</h1>
+            <h3 class="contact-info__sub-header">QA Trainee</h3>
+
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                      <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192
+                        0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
+                        13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
+                        80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                    </svg>
+                  </div>
+                  <span>Gdańsk, Poland</span>
+                </a>
+                <a href="mailto:t_sotnikova@ukr.net" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4
+                        8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0
+                        176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8
+                        17.1-54 17.1-76.8 0L0 176z"></path>
+                    </svg>
+                  </div>
+                  <span>t_sotnikova@ukr.net</span>
+                </a>
+              </div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar" />
+              </div>
+
+              <div class="contact-info__block">
+                <a href="tel:+48724592674" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0
+                        295.8 187.9 483.9 419.8 483.9c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3
+                        11.6l-40.4 49.3c-70.4-33.3-127.4-90.3-160.7-160.7l49.3-40.4c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path>
+                    </svg>
+                  </div>
+                  <span>+48 724 59 26 74 (PL)</span>
+                </a>
+                <a href="tel:+380674603322" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0
+                        295.8 187.9 483.9 419.8 483.9c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3
+                        11.6l-40.4 49.3c-70.4-33.3-127.4-90.3-160.7-160.7l49.3-40.4c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path>
+                    </svg>
+                  </div>
+                  <span>+38 067 460 33 22 (UA)</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== INTRO ===== -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                    24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                    26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                    48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                    64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6
+                    32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                    48-48V304c0-26.5-21.5-48-48-48z"></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                Motivated and detail-oriented professional transitioning into Quality Assurance. Skilled in
+                creating test cases, performing functional and regression testing, and collaborating with
+                teams to improve product quality. With over 10 years of experience in marketing, design, and
+                team coordination, I bring strong process-management and communication skills to QA work.
+                Quick learner, adaptable to new tools and workflows, eager to grow as a QA professional.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== SKILLS ===== -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">
+                Functional, Regression, Integration, Exploratory and Ad hoc testing; Black/Grey Box testing;
+                test design techniques; Agile &amp; Waterfall SDLC; basic SQL and HTML; DevTools fundamentals;
+                Testomat, PICT, ChatGPT; Windows, macOS, iOS, Android.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== EXPERIENCE + EDUCATION ===== -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+
+              <div class="experiences">
+                <h3 class="experiences__header">Experience</h3>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">Jul 2025 – Jan 2026</span>
+                    <h3 class="experiences__company-header-name">Utest</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">QA</span>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Conducted test cases for positive/negative scenarios</li>
+                      <li>Documented bugs and improvement recommendations</li>
+                      <li>Searched and reported bugs for mobile application and web sources</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">Oct 2025 – Dec 2025</span>
+                    <h3 class="experiences__company-header-name">EPAM</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">Junior QA</span>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Designed test cases for positive/negative scenarios</li>
+                      <li>Analyzed error patterns via Confusion Matrix</li>
+                      <li>Documented bugs and improvement recommendations</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">May 2022 – Jun 2025</span>
+                    <h3 class="experiences__company-header-name">Independent Contractor — Advertising Agencies</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">BTL Team Supervisor</span>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Recruited and trained student teams for consulting and promotional projects</li>
+                      <li>Coordinated merchandising activities, product presentations, roadshows and events</li>
+                      <li>Acted as a liaison between agencies and field teams</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">May 2021 – May 2022</span>
+                    <h3 class="experiences__company-header-name">British American Tobacco</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">Team Leader, Brand Ambassadors</span>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Led sales team: recruitment, onboarding, training</li>
+                      <li>Monitored and analyzed KPI performance</li>
+                      <li>Managed personnel performance and financial regulation</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">Mar 2014 – Apr 2021</span>
+                    <h3 class="experiences__company-header-name">Independent Contractor — Field &amp; Trade Marketing</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Managed recruitment, onboarding, and advertising campaign launches</li>
+                      <li>Organized marketing events, including large-scale corporate gatherings</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">Mar 2002 – Apr 2014</span>
+                    <h3 class="experiences__company-header-name">Vivat National Stationery Corporation</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">Graphic Designer, Advertising and PR Department</span>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Designed layouts for books, catalogues, and advertising materials</li>
+                      <li>Helped organize marketing events and conferences</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+
+                  <div class="additional-info__education-university">
+                    <h3 class="additional-info__education-university-speciality">
+                      Engineer Degree, Welding Production Technologies and Equipment
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Chernigov Technological State University
+                    </p>
+                  </div>
+
+                  <div class="additional-info__education-university">
+                    <h3 class="additional-info__education-university-speciality">
+                      Bachelor's Degree, Marketing
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Chernigov State Institute of Economics and Management
+                    </p>
+                  </div>
+
+                  <div class="additional-info__education-university">
+                    <h3 class="additional-info__education-university-speciality">
+                      Technik Administration
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      School Cosinus, Gdańsk
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">Ukrainian — Native</p>
+                  <p class="additional-info__languages-item">Russian — Fluent</p>
+                  <p class="additional-info__languages-item">English — Intermediate</p>
+                  <p class="additional-info__languages-item">Polish — Intermediate</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== CERTIFICATIONS (bonus block) ===== -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Certifications</h3>
+              <p class="skills__text">
+                EPAM Fundamentals: QA · Projector Institute: QA course · Prometheus: E-marketing ·
+                Uniwersytet Gdański: Graphic Design basic · Japanese Poland Academy: WordPress · Coursera: UI/UX design
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
   </body>
 </html>
